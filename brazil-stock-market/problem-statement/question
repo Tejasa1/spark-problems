@@ -1,0 +1,15 @@
+Drill-down Query
+
+This query is characterized by providing more detailed aggregation levels for the data. In the context Stock Market, we can use a drill-down query to analyze the differences in the behavior of the average stock value when we analyze the time dimension under different granularities going from the largest grain to the smallest grain (e.g., years, semesters, months). The analysis of different granularities can contribute to the perception of short-, medium- and long-term trends of a stock, and is therefore extremely relevant for investidors in their decision-making on which stock to invest.
+
+Question: What was the average value of the LAME3 option in 2020? Its average value in the first half of this year? Its observed average value in February of the same year?
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Drill-across Query
+
+This query is characterized by comparing two, or more, distinct measures related by some a common dimension. Let's run a Drill-across query in our application to compare numerical measures of stock value with the dollar exchange rate in the time dimension. In this way, the user can assess whether the current stock price appeals to him, or whether there is greater benefit from international investments.
+
+Question: What is the average LAME3 value and average dollar for each year?
